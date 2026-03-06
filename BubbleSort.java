@@ -7,7 +7,8 @@ public class BubbleSort
 		int passes;
 		int comparisons;
 		int tempNum;
-
+		for(int x: myNums)
+			System.out.println(x);
 		//Loop once for each pass, where passes is one less than the number of items.
 		for(passes = 1; passes<myNums.length; passes++)
 		{
